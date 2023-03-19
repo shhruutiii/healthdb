@@ -16,11 +16,42 @@
       font-weight-light:500;
     }
     nav{
-      background: #faf5e4;
+      background: #dce775;
+    
     }
     h1{
-      background:#e95d35;
+      background: #388e3c;
+      text-align:center;
     }
+    h2{
+      background:#8bc34a;
+      text-align:center;
+      font-style:italic;
+    }
+    h4{
+      text-align:center;
+    }
+    .container {
+  height: 200px;
+  position: relative;
+ 
+}
+
+.vertical-center {
+ margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-20%, -20%);
+  transform: translate(-50%, -50%);
+
+}
+    p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
   </style>
 
 
@@ -28,10 +59,11 @@
   <div   >
   <h1 >AUTISTURO</h1>
   </div>
-  <div class="p-3 mb-2 bg-primary text-white">
-  <h2>a first helping hand to you ......</h2>
-  </div>
-  <div class="text-bg-success p-3">
+  
+  
+  <h2>Every Puzzle Has a Piece ......</h2>
+  
+  
   <nav class="nav nav-pills flex-column flex-sm-row">
         <a class="flex-sm-fill text-sm-center nav-link"  href="#">What is Autism?</a>
         <a  class="flex-sm-fill text-sm-center nav-link" href="#">Information </a>
@@ -39,7 +71,7 @@
         <a  class="flex-sm-fill text-sm-center nav-link" href="#">Psychiatrists</a>
         <a  class="flex-sm-fill text-sm-center nav-link" href="#">Therapies</a>
     </nav>
-  </div>
+  
 <body>
   <img id="banner" class="img-fluid" src="https://health-1.shrutisahu2.repl.co/static/2.jpg" height="200" width ="1000">
  <div >
@@ -47,15 +79,22 @@
   <p class="text-center" class="fs-3">This site is suited to parents who think their child may experience traits of autism, such as difficulty with social interaction and interpreting others’ emotions, or preferring to stick to a fixed routine. However, as autism is a spectrum condition, individual traits will differ from person to person. </p>
     <div>
       <a href="https://health-1.shrutisahu2.repl.co/static/1.html">
-  <button  button type="button" class="btn btn-outline-success">Take The Test</button></a>
+  <div class="container">
+  <div class="vertical-center"><button   type="button" class="btn btn-outline-success">Take The Test</button></a>
     </div>
+    </div>
+</div>
   <h4>WHY IS IT WORTH TAKING THE TEST?</h4>
   <p class="text-center", class="fst-italic",class="font-monospace">While this quiz is not a diagnosis for autism, the test can text: align centre;ation of whether your child has traits of autism. If you score highly on this quiz, you may wish to speak to your GP about arranging a formal diagnosis.
 
 A diagnosis can help you to access the support your child needs and can help explain to others what this support should be.</p>
-  <button  button type="button" class="btn btn-outline-success">Contact Us</button>
+  <div class="container">
+  <div class="vertical-center"><button   type="button" class="btn btn-outline-success">Contact Us</button>
   <button button type="button" class="btn btn-outline-success">Raise Queries</button>
     </div>
+  </div></div>
+ 
+
   </body>
 
 </html>
